@@ -1,0 +1,39 @@
+section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 15px 5px 50px;
+  margin: auto;
+  width: 65%;
+}
+
+.content__wide {
+  width: 80%;
+}
+
+.content__footer {
+  width: 90%;
+}
+
+h1 {
+  margin: 10px 0px 20px;
+  font-size: 60px;
+  color: rgba(241, 241, 241, 0.9);
+  text-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1060px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  section {
+    width: 95%;
+  }
+}

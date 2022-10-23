@@ -1,0 +1,18 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery-slide .image-gallery-image {
+  width: 65%;
+}
+
+.image-gallery {
+  margin: 40px 0px 40px;
+}
+
+.image-gallery-fullscreen-button {
+  display: none;
+}
+
+.image-gallery-slide-wrapper {
+  width: 90%;
+  margin: auto;
+}

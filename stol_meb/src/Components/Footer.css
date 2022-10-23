@@ -1,0 +1,51 @@
+.logo__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 20px 20px;
+}
+
+.logo__contact img {
+  width: 400px;
+  height: 130px;
+}
+
+.info__contact {
+  display: flex;
+}
+
+.info__item {
+  margin: 10px 30px 0px;
+}
+
+h2 {
+  color: rgba(241, 241, 241, 0.9);
+  text-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  font-size: 10px;
+  margin: auto;
+}
+
+.copyright__container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px 0px;
+}
+
+@media screen and (max-width: 710px) {
+  .info__item h2 {
+    font-size: 20px;
+  }
+
+  .info__item p {
+    font-size: 15px;
+  }
+
+  .logo__contact img {
+    width: 300px;
+    height: 108px;
+  }
+}

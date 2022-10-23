@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fbfaf5;
+  background-color: #161616;
+}
+
+.App {
+  position: relative;
+}
+
+.banner__text {
+  font-weight: bold;
+  font-size: 70px;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.highlight {
+  color: #ac703d;
+}
+
+.about__content {
+  text-align: justify;
+}
+
+.google__maps {
+  margin: 10px 0 10px;
+  width: 100%;
+  height: 300px;
+}
+
+.gallery__title {
+  padding: 10px 5px 10px;
+}
+
+@media screen and (max-width: 1060px) {
+  .banner__text {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .banner__text {
+    font-size: 35px;
+  }
+}
